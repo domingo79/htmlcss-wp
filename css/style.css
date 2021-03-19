@@ -100,14 +100,18 @@ header > p{
     padding: 10px;
 }
 
-h2, p{
-    color: darkgray;
-}
+
 
 /* footer-------------------------------------------*/
 footer{
     width: 85%;
-    margin: auto;
+    margin: 25px auto;
     height: 100px;
-    background-color: rgb(179, 176, 0);
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+#cuore:after {
+    content: ' \2764';
+    color: red;
 }
