@@ -1,4 +1,4 @@
-/* reset page...--------------------------------- */
+/* reset page...------- */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,23 +6,22 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* proprietà flex --------------------------------- */
+/* proprietà flex ---------------------------------------------- */
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
 }
 
-/* sezione del logo e navbar---------------------- */
+/* sezione del logo e navbar------------------------------------------ */
 .container_logo_nav{
     width: 85%;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.8);
-
 }
+
 #logo > img{
-    width: 120px;
-    
+    width: 120px;   
 }
 
 .navbar ul{
@@ -34,12 +33,11 @@
     text-transform: uppercase;
     padding: 10px;
 }
-/* set img star page -------- */
+/* set img star page --------------------------------------------- */
 .img_star{
     width: 85%;
     margin: auto;
-    filter: brightness(0.6);
-    
+    filter: brightness(0.6);   
 }
 
 .hero_image > img{
@@ -57,12 +55,14 @@
     color: rgb(49 20 20 / 55%);
 } 
 
-/* set main struttura */
+/* set main struttura----------------------------------------------- */
 .container{
     width: 85%;
     margin: auto;
-    /* height: 600px; */
+ /* height: 600px; */
 }
+
+/* sezione heder di main------------------------------------------- */
 header{
     margin: 40px 2px;
     width: 100%;
@@ -71,6 +71,8 @@ header{
 header > p{
     color: lightgray;
 }
+
+/* col sinistra desta proprietà comuni----------------------------------- */
 .col_left, .col_right{
     width: 20%;
     height: 100%;
@@ -84,6 +86,9 @@ header > p{
     border-radius: 10px;
     filter: brightness(0.6);
 }
+
+
+/* colonna centrale------------------------------------------------- */
 .col_center > img{
     margin-left: auto;
     margin-right: auto;
@@ -102,7 +107,7 @@ header > p{
 
 
 
-/* footer-------------------------------------------*/
+/* footer---------------------------------------------------*/
 footer{
     width: 85%;
     margin: 25px auto;
